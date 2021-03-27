@@ -1,0 +1,27 @@
+<style>
+  #header-img{
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  #img{
+    width:50%;
+    height:auto;
+  }
+
+  #header{
+    display: inline-block;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  #form{
+    position: right;
+  }
+
+  li{
+      list-style: none;
+  }
+</style>
