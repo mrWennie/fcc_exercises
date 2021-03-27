@@ -1,0 +1,77 @@
+<html lang="en">
+<style>
+
+  input{
+    display: block;
+  }
+
+</style>
+
+
+
+<head>
+</head>
+<body>
+
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<title>Survey Form</title>
+  <h1 id="title">Favorite Type Of Beer</h1>
+    <p id="description">
+    This survey is my quest to find more tasty beer
+    </p>
+
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your name">
+    <br />
+
+    <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email">
+    <br />
+
+    <label for="number" id="number-label">Number:</label>
+      <input type="number" id="number" name="number" required min="0" max="200" placeholder="Age">
+    <br />
+
+    <label for="beer" placeholder="Brewery">Choose a brewery:</label>
+      <select name="cars" id="dropdown">
+        <option value=""disabled selected hidden></option>
+        <option value="odell">Odell</option>
+        <option value="maxline">Maxline</option>
+        <option value="funkwerks">Funkwerks</option>
+        <option value="new belgium">New Belgium</option>
+      </select>
+    <br />
+
+    <input type="radio" id="ale" name="type" value="ale" style="display: inline-block">
+      <label for="ale">Ale</label><br>
+    <input type="radio" id="lager" name="type" value="lager" style="display: inline-block">
+      <label for="lager">Lager</label><br>
+    <input type="radio" id="other" name="type" value="other" style="display: inline-block">
+      <label for="other">Other</label><br />
+    <br />
+
+    <label class="container">Wine
+      <input type="checkbox" value="wine" style="display: inline-block">
+      <span class="checkmark"></span>
+    </label><br />
+    <label class="container">Liquor
+      <input type="checkbox" value="liquor" style="display: inline-block">
+      <span class="checkmark"></span>
+    </label><br />
+    <label class="container">Other
+      <input type="checkbox" value="other" style="display: inline-block">
+      <span class="checkmark"></span>
+    </label><br />
+
+    <label for="box">Other options to drink:</label>
+
+<textarea id="box" name="box" rows="4" cols="50" placeholder="Comment here for any additional liquids that alter ones consciousness!"></textarea>
+
+<input type="submit" id="submit" />
+
+</form>
+
+</body>
+</html>
