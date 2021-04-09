@@ -1,7 +1,7 @@
 <style>
   #header-img{
-    max-width: 50px;
-    max-height: 50px;
+    width: 5px;
+    height: 5px;
   }
 
   #img{
@@ -9,12 +9,22 @@
     height:auto;
   }
 
-  #header{
+  /* #header{
     display: inline-block;
     list-style-type: none;
     position: fixed;
     top: 0;
     left: 0;
+  } */
+
+  header {
+    position: fixed;
+    top: 0px;
+    min-height: 20px;
+    display: flex;
+    padding-top: 0px;
+    padding-left: 500px;
+    align-items: center;
   }
 
   #form{
@@ -24,4 +34,6 @@
   li{
       list-style: none;
   }
+
+
 </style>

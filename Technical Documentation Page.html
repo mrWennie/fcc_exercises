@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial;
+      padding: 10px;
+      background: #f1f1f1;
+    }
+
+    /* Header/Blog Title */
+    .header {
+      padding: 30px;
+      text-align: center;
+      background: white;
+    }
+
+    .header h1 {
+      font-size: 50px;
+    }
+
+    /* Style the top navigation bar */
+    .sidenav {
+      overflow: hidden;
+      background-color: #9b111e;
+    }
+
+    /* Style the topnav links */
+    .sidenav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change color on hover */
+    .sidenav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Right column */
+    .rightcolumn {
+      float: left;
+      width: 10%;
+      background-color: #f1f1f1;
+      padding-left: 0px;
+    }
+
+    /* Fake image */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+
+    /* Add a card effect for articles */
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+
+    .main-section{
+      margin: 20px;
+      padding: 20px;
+      border: 5px #800080 solid;
+      float:left;
+      width: 85%;
+    }
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .sidenav a {
+        float: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Proper Wine Service for Dummbies</h1>
+</div>
+
+<div class="rightcolumn">
+  <nav class="sidenav" id="navbar">
+    <header></header>
+    <a href="#glassware_in_proper_place" class="nav-link">Glassware In Proper Place</a>
+    <a href="#present_bottle" class="nav-link">Present Bottle</a>
+    <a href="#cut_foil" class="nav-link">Cut Foil</a>
+    <a href="#incert_corkscrew" class="nav-link">Incert Corkscrew</a>
+    <a href="#pour_host_taster" class="nav-link">Pour Host Taster</a>
+    <a href="#pour_clockwise" class="nav-link" style="float:right">Pour Clockwise</a>
+  </nav>
+</div>
+
+<div class="row">
+  <main id="main-doc">
+    <section class="main-section" id="glassware_in_proper_place">
+      <header><strong>Glassware In Proper Place</strong></header>
+      <code></code>
+      <p><i>Glass	stemware	is	placed	to	the	right	of	each	guest	and	is	keyed	off	the
+knife.</i></p>
+      <p><small>Some text..</small></p>
+      <p><small>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</small></p>
+    </section>
+
+    <section class="main-section" id="present_bottle">
+      <header><strong>Present Bottle</strong></header>
+      <code></code>
+      <p><i>The	Sommelier	presents	the	bottle	to	the	host	–	“label	side	up”	– and
+repeats	verbally	the	name	&	vintage	of	the	wine	to	re-confirm	the	order.</i></p>
+      <p><small>Some text..</small></p>
+      <p><small>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</small></p>
+    </section>
+
+    <section class="main-section" id="cut_foil">
+      <header><strong>Cut Foil</strong></header>
+      <code></code>
+      <p><i>Cut	the	foil	below	the	second	lip	to	prevent	the	wine	dripping	behind	the
+foil	&	contaminating	future	pours</i></p>
+      <p><small>Some text..</small></p>
+      <p><small>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</small></p>
+    </section>
+
+    <section class="main-section" id="incert_corkscrew">
+      <header><strong>Incert Corkscrew</strong></header>
+      <code></code>
+      <p><i>The	worm	of	the	corkscrew	is	inserted	into	the	cork	just	off	centre	and	is
+slowly	twisted	through	the	cork	stopping	just	before	the	bottom	of	the	cork
+is	reached.		The	cork	is	then	gently	levered	out	of	the	bottle	without	causing
+a	pop.</i></p>
+      <p><small>Some text..</small></p>
+      <p><small>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</small></p>
+    </section>
+
+    <section class="main-section" id="pour_host_taster">
+      <header><strong>Pour Host Taster</strong></header>
+      <code></code>
+      <p><i>Hold	the	bottle	in	the	right	hand	–	label	towards	the	host	and		pour	a
+small	amount	for	the	host		for	the	host	to	taste.</i><p>
+      <p><small>Some text..</small></p>
+      <p><small>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</small></p>
+    </section>
+
+    <section class="main-section" id="pour_clockwise">
+      <header><strong>Pour Clockwise</strong></header>
+      <code></code>
+      <p><i>After	approval,	the	Sommelier	serves	the	wine	moving	to	the	left
+(Clockwise)	around	the	table	serving	the	ladies	first	gentlemen	second	and
+the	host	last	–	regardless	of	gender.</i></p>
+        <h3>Things To Consider Before Pouring</h3>
+        <ol>
+          <li>Are there ladies?</li>
+          <li>If so, they are poured first.</li>
+          <li>Is there a guest of honour?</li>
+          <li>If so, they are poured first.</li>
+          <li>How many people are at the table?</li>
+          <li>This will tell you how much wine should you pour.</li>
+        </ol>
+      <p><small>Some text..</small></p>
+      <p><small>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</small></p>
+    </section>
+  </main>
+</div>
+
+<div class="footer">
+  <header>FIN</header>
+</div>
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
